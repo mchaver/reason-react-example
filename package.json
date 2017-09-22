@@ -1,0 +1,32 @@
+{
+  "name": "reason-react-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world && webpack",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0",
+    "webpack": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bs-director": "^0.0.4",
+    "bs-fetch": "^0.1.1",
+    "bs-json": "^0.2.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "reason-react": "^0.2.4",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^1.9.2",
+    "concurrently": "^3.5.0",
+    "webpack": "^1.14.0"
+  }
+}
